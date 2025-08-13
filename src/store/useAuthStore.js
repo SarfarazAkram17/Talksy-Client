@@ -3,7 +3,7 @@ import { axiosInstance } from "../lib/axios";
 import toast from "react-hot-toast";
 import { io } from "socket.io-client";
 
-const BASE_URL = "talksy-sarfaraz-akram.vercel.app";
+const BASE_URL = "https://talksy-sarfaraz-akram.vercel.app";
 
 export const useAuthStore = create((set, get) => ({
   authUser: null,
